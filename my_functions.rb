@@ -24,3 +24,9 @@ def find_item(array, item)
   end
   return false
 end
+
+###################################
+
+def get_first_key(hash)
+  first_listing_key = hash.key().first()
+end
