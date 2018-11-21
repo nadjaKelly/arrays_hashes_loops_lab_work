@@ -13,3 +13,14 @@ def sum_array(numbers)
   end
   return total
 end
+
+###################################
+
+def find_item(array, item)
+  for listing in array
+    if listing ==  item
+      return true
+    end
+  end
+  return false
+end
